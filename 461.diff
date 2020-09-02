@@ -1,0 +1,14 @@
+diff --git a/scss/civicrm/common/_base.scss b/scss/civicrm/common/_base.scss
+index 84105147..84f64c25 100644
+--- a/scss/civicrm/common/_base.scss
++++ b/scss/civicrm/common/_base.scss
+@@ -118,9 +118,6 @@
+   span.btn-slide {
+     background: none;
+     display: inline-block;
+-    padding-right: 0 !important;
+-    text-indent: -500em;
+-    width: 5px;
+ 
+     &::after {
+       @include fa-icon($font-size-base, $fa-var-ellipsis-v, $gray-darker);
